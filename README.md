@@ -1,16 +1,25 @@
 # Maze_Visualizer
 Created a maze visualization using Java with advanced algorithms to generate a maze and path find between two points.
 
-## Algorithms Included:
+## Maze Generation Algorithms
 
-Maze Generation Algorithms
+Recursive Division
 
-        - Recursive Division
-        - Randomized Kruskal's Algorithm
-        - Randomized Prim's Algorithm
-        - Wilson's Algorithm
+        - Recursively divide the maze into smaller segments with randomly positioned walls to create a fraction-like maze.
 
-Pathfinding Algorithms
+Randomized Kruskal's Algorithm
+        
+        - Generates a perfect maze by creating a minimum spanning tree from a set of all posible connections in maze.
+
+Randomized Prim's Algorithm
+        
+        - Algorithm generates random passages with short dead ends that create a minimum spanning tree. 
+
+Wilson's Algorithm
+
+        - Creates a maze by performing a series of loop-erased random walks to join different passages together.
+
+## Pathfinding Algorithms
 
         - Depth First Search
         - Breadth First Search
