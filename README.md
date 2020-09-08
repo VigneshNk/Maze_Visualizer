@@ -66,4 +66,6 @@ A Star Pathfinding
 
 **Blue** is the path
 
+
 ![Screenshot](Maze_Visualizer_Preview.png)
+![Screenshot](Maze_Visualizer_Solution.png)
