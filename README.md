@@ -5,17 +5,17 @@ Created a maze visualization with advanced algorithms to generate a maze and pat
 
 Maze Generation Algorithms
 
-      Recursive Division
-      Randomized Kruskal's Algorithm
-      Randomized Prim's Algorithm
-      Wilson's Algorithm
+        - Recursive Division
+        - Randomized Kruskal's Algorithm
+        - Randomized Prim's Algorithm
+        - Wilson's Algorithm
 
 Pathfinding Algorithms
 
-      Depth First Search
-      Breadth First Search
-      Dijkstra's Algorithm
-      A Star Pathfinding
+        - Depth First Search
+        - Breadth First Search
+        - Dijkstra's Algorithm
+        - A Star Pathfinding
 
 ## Instructions:
 
