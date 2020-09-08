@@ -5,26 +5,43 @@ Created a maze visualization using Java with advanced algorithms to generate a m
 
 Recursive Division
 
-        - Recursively divide the maze into smaller segments with randomly positioned walls to create a fraction-like maze.
+        - Recursively divide the maze into smaller segments with randomly positioned walls to 
+          create a fraction-like maze.
 
 Randomized Kruskal's Algorithm
         
-        - Generates a perfect maze by creating a minimum spanning tree from a set of all posible connections in maze.
+        - Generates a perfect maze by creating a minimum spanning tree from a set of all
+          posible connections in maze.
 
 Randomized Prim's Algorithm
         
-        - Algorithm generates random passages with short dead ends that create a minimum spanning tree. 
+        - Algorithm generates random passages with short dead ends that create a minimum 
+          spanning tree. 
 
 Wilson's Algorithm
 
-        - Creates a maze by performing a series of loop-erased random walks to join different passages together.
+        - Creates a maze by performing a series of loop-erased random walks to join different 
+          passages together.
 
 ## Pathfinding Algorithms
 
-        - Depth First Search
-        - Breadth First Search
-        - Dijkstra's Algorithm
-        - A Star Pathfinding
+Depth First Search
+
+        - Traverses maze as far as possible along each passage before backtracking.
+        
+Breadth First Search
+
+        - Explores positions in maze at current depth level from start position, before moving
+          on to positions at next depth level.
+        
+Dijkstra's Algorithm        
+        
+        - Calculates cost of each move using distance from start node to to prioritize nodes
+          within radius of path to destination.
+        
+A Star Pathfinding        
+        
+        - Calculates cost of each move using heuristics to find shortest path in optimal time.
 
 ## Instructions:
 
