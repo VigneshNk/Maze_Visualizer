@@ -1,5 +1,5 @@
 # Maze_Visualizer
-Created a maze visualization with advanced algorithms to generate a maze and path find between two points.
+Created a maze visualization using Java with advanced algorithms to generate a maze and path find between two points.
 
 ## Algorithms Included:
 
