@@ -1,7 +1,7 @@
 # Maze_Visualizer
 Created a maze visualization with advanced algorithms to generate a maze and path find between two points.
 
-Algorithms Included:
+## Algorithms Included:
 
       Recursive Division
       Randomized Kruskal's Algorithm
@@ -11,6 +11,8 @@ Algorithms Included:
       Breadth First Search
       Dijkstra's Algorithm
       A Star Pathfinding
+
+## Instructions:
 
 
 1) Select a Blue Maze Generation Algorithm to Generate a Random Maze.
