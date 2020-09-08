@@ -26,4 +26,4 @@ Algorithms Included:
         - Algorithm will Pathfind Between the Start and Destination Node.
 Green is your start node, Red is your destination node, Yellow is the search area, Blue is the path
 
-HTML <img> tag
+HTML <Maze_Visualizer_Preview.png> tag
