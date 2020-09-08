@@ -3,17 +3,21 @@ Created a maze visualization with advanced algorithms to generate a maze and pat
 
 ## Algorithms Included:
 
+Maze Generation Algorithms
+
       Recursive Division
       Randomized Kruskal's Algorithm
       Randomized Prim's Algorithm
       Wilson's Algorithm
+
+Pathfinding Algorithms
+
       Depth First Search
       Breadth First Search
       Dijkstra's Algorithm
       A Star Pathfinding
 
 ## Instructions:
-
 
 1) Select a Blue Maze Generation Algorithm to Generate a Random Maze.
 
@@ -26,6 +30,8 @@ Created a maze visualization with advanced algorithms to generate a maze and pat
 3) Select an Orange Pathfinding Algorithm.
 
         - Algorithm will Pathfind Between the Start and Destination Node.
+
+## Maze Colours:
 **Green** is your start node
 
 **Red** is your destination node
