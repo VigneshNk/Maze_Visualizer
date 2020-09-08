@@ -1,7 +1,7 @@
 # Maze_Visualizer
 Created a maze visualization using Java with advanced algorithms to generate a maze and path find between two points.
 
-## Maze Generation Algorithms
+## Maze Generation Algorithms:
 
 Recursive Division
 
@@ -23,7 +23,7 @@ Wilson's Algorithm
         - Creates a maze by performing a series of loop-erased random walks to join different 
           passages together.
 
-## Pathfinding Algorithms
+## Pathfinding Algorithms:
 
 Depth First Search
 
@@ -66,6 +66,8 @@ A Star Pathfinding
 
 **Blue** is the path
 
-
+## Random Maze Generated With Randomized Kruskal's Algorithm:
 ![Screenshot](Maze_Visualizer_Blank.png)
+
+## Path Found Using Breadth First Search:
 ![Screenshot](Maze_Visualizer_Solution.png)
