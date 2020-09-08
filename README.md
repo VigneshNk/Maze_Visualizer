@@ -24,6 +24,12 @@ Algorithms Included:
 3) Select an Orange Pathfinding Algorithm.
 
         - Algorithm will Pathfind Between the Start and Destination Node.
-Green is your start node, Red is your destination node, Yellow is the search area, Blue is the path
+**Green** is your start node
 
-HTML <Maze_Visualizer_Preview.png> tag
+**Red** is your destination node
+
+**Yellow** is the search area
+
+**Blue** is the path
+
+![Screenshot](Maze_Visualizer_Preview.png)
