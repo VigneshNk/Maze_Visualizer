@@ -41,10 +41,10 @@ public class Dijkstra
 	
 	private static Point DijkstraSolve(int[][]maze, int xStart, int yStart, int xDest, int yDest)
 	{
-    	//Add Initial Start Position to Queue
-    	heuristicPoints.add(new Point(xStart, yStart, null));
+    		//Add Initial Start Position to Queue
+    		heuristicPoints.add(new Point(xStart, yStart, null));
     	
-    	//Initialize Costs
+    		//Initialize Costs
 		double gcost = 0;
 		
 		while(!heuristicPoints.isEmpty())
@@ -52,17 +52,14 @@ public class Dijkstra
 			//Sort Points
 			bubbleSort(heuristicPoints);
 			
-			QuickSort.DijkstraQuickSort(heuristicPoints);
-			
-			
 			Point p = heuristicPoints.remove(0);
 			
-            //Base Case
-            if(maze[p.y][p.x] == 9) 
-            {
-                //Destination Node Found
-                return p;
-            }
+            		//Base Case
+            		if(maze[p.y][p.x] == 9) 
+            		{
+                		//Destination Node Found
+                		return p;
+            		}
             
 			//Check Adjacent Squares
 			int [] dx = {0, 0, -1, 1};
