@@ -34,11 +34,6 @@ Breadth First Search
         - Explores positions in maze at current depth level from start position, before moving
           on to positions at next depth level.
         
-Dijkstra's Algorithm        
-        
-        - Calculates cost of each move using distance from start node to to prioritize nodes
-          within radius of path to destination.
-        
 A Star Pathfinding        
         
         - Calculates cost of each move using heuristics to find shortest path in optimal time.
@@ -67,7 +62,7 @@ A Star Pathfinding
 **Blue** is the path
 
 ## Random Maze Generated With Randomized Kruskal's Algorithm:
-![Screenshot](Maze_Visualizer_Blank.png)
+![Screenshot](Kruskal_Example.png)
 
 ## Path Found Using Breadth First Search:
-![Screenshot](Maze_Visualizer_Solution.png)
+![Screenshot](BFS_Example.png)
