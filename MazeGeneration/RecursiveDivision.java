@@ -1,86 +1,71 @@
-package MazeProject;
+package MazeGeneration;
 
-import java.lang.Math;
-
-public class RecursiveDivision
-{
-	public static void Generate(int[][] maze, int startX, int startY, int endX, int endY) 
-	{
-		//Calculate Length and Width of Section
+public class RecursiveDivision {
+	public static void generate(int[][] maze, int startX, int startY, int endX, int endY) {
+		// Calculate Length and Width of Section
 		int dx = endX - startX;
 		int dy = endY - startY;
 
-		if(dx < 2 || dy < 2) 
-		{
-			//Base Case
+		if (dx < 2 || dy < 2) {
+			// Base Case
 			return;
 		}
 
-		if(dy > dx) 
-		{
-			//X Coordinate of Hole in Wall
+		if (dy > dx) {
+			// X Coordinate of Hole in Wall
 			int xp = (int) (Math.random() * (endX - startX + 1) + startX);
 
-			//Y Coordinate of Wall
+			// Y Coordinate of Wall
 			int yp = (int) (Math.random() * (endY - 1 - (startY + 1) + 1) + (startY + 1));
 
-			//Create Passage if Cross Section
-			if(maze[yp][startX - 1] == 0) 
-			{
+			// Create Passage if Cross Section
+			if (maze[yp][startX - 1] == 0) {
 				xp = startX;
-			} 
-			else if(maze[yp][endX + 1] == 0) 
-			{
+
+			} else if (maze[yp][endX + 1] == 0) {
 				xp = endX;
 			}
 
-			//Create Wall
-			for(int i = startX; i <= endX; i++) 
-			{
-				if(i != xp) 
-				{
+			// Create Wall
+			for (int i = startX; i <= endX; i++) {
+				if (i != xp) {
 					maze[yp][i] = 1;
 				}
 			}
 
-			//Above Wall
-			Generate(maze, startX, startY, endX, yp - 1);
+			// Above Wall
+			generate(maze, startX, startY, endX, yp - 1);
 
-			//Below Wall
-			Generate(maze, startX, yp + 1, endX, endY);
-		} 
-		else
-		{
-			//Y Coordinate of Hole in Wall
+			// Below Wall
+			generate(maze, startX, yp + 1, endX, endY);
+
+		} else {
+			// Y Coordinate of Hole in Wall
 			int yp = (int) (Math.random() * (endY - startY + 1) + startY);
 
-			//X Coordinate of Wall
+			// X Coordinate of Wall
 			int xp = (int) (Math.random() * (endX - 1 - (startX + 1) + 1) + (startX + 1));
 
-			//Create Passage if Cross Section
-			if(maze[startY - 1][xp] == 0)
-			{
+			// Create Passage if Cross Section
+			if (maze[startY - 1][xp] == 0) {
 				yp = startY;
-			} 
-			else if(maze[endY + 1][xp] == 0) 
-			{
+
+			} else if (maze[endY + 1][xp] == 0) {
 				yp = endY;
 			}
 
-			//Create Wall
-			for(int i = startY; i <= endY; i++) 
-			{
-				if(i != yp) 
-				{
+			// Create Wall
+			for (int i = startY; i <= endY; i++) {
+				if (i != yp) {
 					maze[i][xp] = 1;
 				}
 			}
 
-			//Left of Wall
-			Generate(maze, startX, startY, xp - 1, endY);
+			// Left of Wall
+			generate(maze, startX, startY, xp - 1, endY);
 
-			//Right of Wall
-			Generate(maze, xp + 1, startY, endX, endY);
+			// Right of Wall
+			generate(maze, xp + 1, startY, endX, endY);
 		}
 	}
 }
