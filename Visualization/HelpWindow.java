@@ -163,7 +163,7 @@ public class HelpWindow extends JFrame implements ActionListener {
 
 	public void Dispose() {
 		helpMenu.dispose();
-		MainMazeDriver.setHelpWindowState(0);
+		MazeVisualizer.setHelpWindowState(0);
 	}
 
 	public void LabelSettings(JLabel label, int x1, int y1, int x2, int y2) {
