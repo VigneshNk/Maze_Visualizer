@@ -39,7 +39,7 @@ public class MazeVisualizer extends JFrame implements ActionListener, MouseListe
 	private JButton wilson = new JButton("Wilson`s Algorithm");
 
 	// Path Finding Buttons
-	private JButton dfs = new JButton("Depth Firth Search");
+	private JButton dfs = new JButton("Depth First Search");
 	private JButton breadthFS = new JButton("Breadth First Search");
 	private JButton aStar = new JButton("A Star");
 
